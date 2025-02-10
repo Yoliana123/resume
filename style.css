@@ -70,3 +70,14 @@ article > strong,p{
         justify-content: center;
     }
 }
+body > main > aside > div > a > img{
+    max-width:70px;
+}
+
+body > main:nth-child(1) > aside:nth-child(1) > div:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    flex-wrap:wrap;
+}
